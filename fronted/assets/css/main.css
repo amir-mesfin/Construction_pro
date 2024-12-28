@@ -1,0 +1,21 @@
+
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body {
+ height: 100%;
+ background-color:yellow;
+}
+.1stPahe {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-size: cover;
+  transition: background-image 1s ease; /* Smooth transition for the background change */
+}
+
+

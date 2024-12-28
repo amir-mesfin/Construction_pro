@@ -1,23 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+  <!-- <link rel="stylesheet" href="./assets/css/bootstrap.min.css">  -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
   <!-- Your Custom  Bootstrap CSS -->
   <link rel="stylesheet" href="./assets/css/main.css">
-  <title>Document</title> 
+  <title>Document</title>
 </head>
+
 <body>
-  <h1>khalidaniel</h1>
-<p>do it</p>
+  <div >
+    <!-- // first page -->
+    <div class="1stPahe bg-[url('./assets/img/home12/hero-carousel-4.jpg')] bg-cover bg-center h-100" >
+      <!-- // name part -->
+      <nav class="flex justify-around m-8" > 
+
+        <divv class=" mt-6">
+          <a href="#" class=" font-semibold text-2xl "> UpConstruction.</a>
+        </divv>
+        <ul class=" flex flex-row justify-start  justify-content-between border-2 border-dotted ">
+            <li class="  border-r-2 border-dotted p-6 text-lg font-semibold">Home</li>
+            <li class="  border-r-2 border-dotted p-6 text-lg font-semibold">About</li>
+            <li class="  border-r-2 border-dotted p-6 text-lg font-semibold"> Services</li>
+            <li class="  border-r-2 border-dotted p-6 text-lg font-semibold">Project</li>
+             <li class="  border-r-2 border-dotted p-6 text-lg font-semibold"> Blog</li>
+              <li class="  border-r-2 border-dotted p-6 text-lg font-semibold">Dropdown</li>
+               <li class="  p-4 p-6 text-lg font-semibold"> contact</li>
+        </ul>
+      
+      </nav>
+
+
+
+
+      <!-- content home 1st page -->
+      <div class="flex-col w">
+        <div>
+          <img src="" alt="">
+        </div>
+        <div class="flex">
+          <div>
+            <h1 class="text-5xl font-bold">Welcome to</h1>
+            <h1 class="text-5xl font-bold my-3">UpConstruction</h1>
+          </div>
+          <div>
+            <p class="text-xl"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti deserunt iusto explicabo sit quidem.
+              Magnam adipisci iure nihil, consectetur optio possimus, neque quod odit voluptates atque eligendi.
+              Reprehenderit, hic sed!</p>
+            <button>Get Started</button>
+          </div>
+        </div>
+      </div>
+       <div>
+        <img src="" alt="">
+       </div>
+    </div>
+  </div>
   <!-- Bootstrap JavaScript Bundle (includes Popper) -->
   <script src="./assets/js/bootstrap.bundle.min.js"></script>
-   <!-- jQuery Library -->
-    <script src="./assets/js/jquery.min.js"></script>
-   <!-- Your Custom JavaScript -->
+  <!-- jQuery Library -->
+  <script src="./assets/js/jquery.min.js"></script>
+  <!-- Your Custom JavaScript -->
   <script src="./assets/js/main.js"></script>
 </body>
+
 </html>
